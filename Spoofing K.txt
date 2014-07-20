@@ -1,0 +1,16 @@
+Spoofing K
+
+Ihr System wird mit einem voreingestellten Standard-Administrationspasswort ausgeliefert
+und erzwingt keine Änderung dieses Passworts.
+
+Erläuterung:
+Wenn Ihr System mit dem immer gleichen voreingestellten Administrationspasswort ausgeliefert wird,
+verbreitet sich diese Information früher oder später über das Internet und steht auch unversierten
+Angreifern zur Verfügung. Falls Sie das Passwort bei Installation aus Systemdaten wie
+MAC Adresse, IP-Adresse, Servername, Installationsdatum etc. ableiten, wird dieser Mechanismus  auch irgendwann bekannt und für Angreifer reproduzierbar sein, auch wenn Sie in die Erzeugung
+Hashverfahren o.ä. einbinden.
+Wenn Sie im Handbuch an prominenter Stelle darauf hinweisen,
+dass Anwender das Passwort bei der Inbetriebnahme ändern sollen, werden viele diesen
+Hinweis nicht wahrnehmen oder ignorieren oder vergessen.
+Erzwingen Sie in jedem Fall die Änderung des voreingestellten Passworts
+

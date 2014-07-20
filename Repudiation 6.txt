@@ -1,0 +1,8 @@
+Repudiation 6
+
+Ein Angreifer kann einen Logeintrag ohne Zeitstempel erzeugen (oder die Logs haben generell keine Zeitstempel).
+
+Erläuterung:
+Versehen Sie alle Logeinträge stets mit Zeitstempel, selbst dann, wenn Sie
+Kommunikationspartnern erlauben, selbst Zeitstempel mitzuliefern.
+

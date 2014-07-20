@@ -1,0 +1,11 @@
+Spoofing 9
+
+Ein Angreifer der Zugang zu einem Passwort bekommt, kann es wieder verwenden
+(nutzen Sie stärkere Authentisierungsmethoden).
+
+Erläuterung:
+Benutzername + Passwort sind nach wie vor die gängigste Methode zur Authentisierung,
+bringen aber zahlreiche altbekannte Probleme mit sich. Wann immer Sie die Möglichkeit haben,
+versuchen Sie dies mit stärkeren Authentisierungsmechanismen zu ergänzen oder zu ersetzen, beispielsweise SmartCard + PIN, OTP Token oder andere.
+Stichworte: Mehrfaktor Authentisierung, Besitz + Wissen, Einmalpasswörter
+

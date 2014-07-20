@@ -1,0 +1,9 @@
+Repudiation 9
+
+Ein Angreifer kann einen Shared Key nutzen um sich als jemand anders auszugeben,
+so dass seine Aktionen ebenfalls unter dieser Identität mitgeloggt werden.
+
+Erläuterung:
+Im Zusammenhang mit der Repudiation Karte 4 zeigt sich an diesem Beispiel,
+der Vorteil asymmetrischer Kryptoverfahren gegenüber symmetrischen.
+

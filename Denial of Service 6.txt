@@ -1,0 +1,7 @@
+Denial of Service 6
+
+Ein Angreifer kann einen Server unverfügbar oder unbrauchbar machen,
+ohne dass je eine Authentisierung statt gefunden hat, 
+aber das Problem verschwindet, sobald der Angriff aufhört.
+(Server, anonym, temporär)
+

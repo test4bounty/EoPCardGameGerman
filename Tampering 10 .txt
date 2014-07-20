@@ -1,0 +1,9 @@
+Tampering 10 
+
+Ein Angreifer kann gespeicherte Daten verändern, weil die Berechtigungen
+(ACLs) zu wenig restriktiv sind oder eine Gruppe verwendet, die im Endresultat
+jedem Nutzer Zugriff gewährt.
+
+Erläuterung:
+Passen Sie die Zugriffsrechte und/oder Gruppen an, um das Problem zu beheben.
+

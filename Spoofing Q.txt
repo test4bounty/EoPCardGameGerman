@@ -1,0 +1,22 @@
+Spoofing Q
+
+Ein Angreifer könnte den Mechanismus angreifen, mit dem Passwörter zurückgesetzt oder
+aktualisiert werden (Account Recovery erfordert nicht die Eingabe des alten Passworts).
+
+Erläuterung:
+“Passwort Vergesssen” Funktionen sind schwer auf sichere Weise zu implementieren.
+Oftmals basierten sie darauf, ein temporäres Passwort auf einem unsicherem Kanal (z.B. E-Mail)
+zu übermitteln, den der Angreifer leicht mitlesen kann.
+Unabhängig davon, ob Sie ein temporäres Passwort elektronisch oder per Telefon übermitteln,
+sollten Sie sich überlegen, wie Sie den Empfänger sicher identifizieren können.
+Bei elektronischen Methoden besteht die Gefahr es Ausspähens oder Abfangens,
+bei telefonischen Kontakt besteht die Gefahr des Social Engineerings.
+Falls Sie so genannte “Sicherheitsfragen” nutzen, stellen Sie sicher, dass die Antworten
+auf diese Fragen nicht leicht für einen Angreifer herauszufinden sind.
+Beispiele für schlechte Sicherheitsfragen sind Geburtsdatum, Mädchenname der Mutter,
+Name des Haustiers, Hobbies etc. 
+Beispiel für eine gute Sicherheitsfrage, die sich der Nutzer selbst ausdenken und an die er sich gut erinnern kann:
+Q: Das beste Steak meines Lebens?
+A: Kurzurlaub 2012 in London
+(gut ist diese Frage nur, wenn die Antwort darauf nicht z.B. auf der Facebook Seite oder im Blog des Anwenders für alle Welt nachzulesen ist)
+

@@ -1,0 +1,8 @@
+Spoofing 4
+
+Ein Angreifer kann sich anonym verbinden, weil wir davon ausgehen, dass Authentisierung auf 
+einer höheren Schicht stattfindet.
+
+Erläuterung:
+Dies mag eine zutreffende Annahme sein, die allerdings überprüft werden sollte.
+

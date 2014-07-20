@@ -1,0 +1,9 @@
+Repudiation J
+
+Ein Angreifer kann unbemerkt Logs editieren oder löschen.
+
+Erläuterung:
+Verhindern Sie dies, indem Sie einen Mechanismus nutzen, der die Funktion
+des Logsystems und die Integrität der Daten überwacht.
+Die Funktion des Logsystems können Sie z.B. mithilfe eines Heartbeats und die Integrität mithilfe kryptografischer Funktionen (crypto integrity chain).
+

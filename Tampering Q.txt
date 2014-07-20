@@ -1,0 +1,11 @@
+Tampering Q
+
+Ein Angreifer kann Parameter über eine Trust Boundary hinweg ändern,
+nachdem sie validiert wurden (beispielsweise wichtige Parametern
+in einem hidden field in HTML, oder einen Pointer an eine kritische 
+Speicherstelle im RAM übergeben).
+
+Erläuterung:
+Nutzen Sie “pass by value” anstatt “pass by reference”, d.h. übergeben Sie 
+den Wert statt einen Verweis darauf, wo (an welcher Speicheradresse) der Wert steht.
+

@@ -1,0 +1,20 @@
+Repudiation 7
+
+Ein Angreifer kann das Log zum Überlaufen bringen (wrap-around), so dass
+alte Logdaten überschrieben werden und somit verloren sind.
+
+Erläuterung:
+Große Mengen an Logdaten stellen eine Herausforderung dar.
+Was tun, wenn das Limit für die Speicherung von Logdaten erreicht ist?
+Es gibt grundsätzlich drei Möglichkeiten:
+	1. man stoppt das Logging, oder
+	2. man überschreibt (und verliert) Logdaten, oder
+	3. man stoppt den gesamten Dienst, der dann nicht mehr verfügbar ist.
+Wenn Sie das Logdatenaufkommen im Betrieb überwachen, können Sie rechtzeitig
+reagieren (auch automatisch) und verhindern, dass einzelne Nutzer das Log
+überfluten. Sorgen Sie außerdem dafür, dass Sie genug Kapazität für Logs vorhalten
+und notfalls auf eine alternative Logdatensenke umschwenken können.
+Letztlich müssen Sie jedoch die Entscheidung treffen, ob im Notfall die
+Verfügbarkeit der Logdaten oder des Dienstes Priorität hat.
+
+

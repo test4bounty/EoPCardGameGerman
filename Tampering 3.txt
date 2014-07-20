@@ -1,0 +1,10 @@
+Tampering 3
+
+Statt auf Standard-Kryptografieverfahren zurückzugreifen, haben Sie sich einen eigenen, proprietären Mechanismus zur Gewährleistung von Integrität oder für den Schlüsselaustausch ausgedacht.
+Ein Angreifer kann sich diesen Umstand zunutze machen.
+
+Erläuterung:
+Eigene Krypto zu bauen kann Spaß machen, aber diese produktiv einzusetzen ist sehr, sehr leichtsinnig.
+Robuste kryptografische Verfahren zu entwickeln, ist schwierig, erfordert tiefgehendes
+Wissen und sehr viel Erfahrung. Meist sind nur solche Kryptosysteme ausreichend sicher, die vollständig offengelegt und von vielen Kryptografie-Experten weltweit über längere Zeit ausgiebig überprüft wurden. 
+

@@ -1,0 +1,12 @@
+Spoofing 10
+
+Ein Angreifer kann wählen, dass eine schwächere oder gar keine Authentisierung genutzt wird.
+
+Erläuterung:
+In vielen Systemen wird die Methode der Authentisierung ausgehandelt.
+Manchmal gibt es auch die Option, ohne Authentisierung fortzufahren
+Beispiele: 
+- der Nutzer kann wählen, ob er eine Transaktion zusätzlich mit OTP bestätigen möchte
+- der Server unterstützt Anonymous Diffie Hellman Key Exchange (ADH)
+Wägen Sie ab, welche Optionen Sie wirklich wünschen oder zur Verfügung stellen müssen.
+

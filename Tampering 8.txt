@@ -1,0 +1,10 @@
+Tampering 8
+
+Ein Angreifer kann Daten manipulieren, die per Netzwerk übertragen werden, weil Ihr Code keine Integritätssicherung vorsieht.
+
+Erläuterung:
+Sie können dies durch Nutzung weit verbreiteter kryptografischer Verfahren beheben.
+SSL/TLS, SSH und IPSec ermöglichen gleichzeitig eine verschlüsselte Übertragung (für Vertraulichkeit) und Integritätssicherung. Haben Sie hohe Anforderungen an Integrität und Authentizität, benötigen aber keine Vertraulichkeit, können Sie Public Key Signaturverfahren mit X.509 Zertifikaten nutzen und auf die Verschlüsselung verzichten. 
+Beispiel: per S/MIME oder PGP/GnuPG signierte E-Mails, die nachweisbar von Ihnen stammen.
+In der Regel empfiehlt es sich, wo immer möglich auch zu verschlüsseln.
+

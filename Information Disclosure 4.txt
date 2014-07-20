@@ -1,0 +1,13 @@
+Information Disclosure 4
+
+Ein Angreifer kann Dateninhalte lesen, weil die Nachrichten
+(z.B. E-Mails oder Cookies) nicht verschlüsselt sind, selbst wenn
+der Transportkanal verschlüsselt ist.
+
+Erläuterung:
+Transportverschlüsselung ist wichtig, schützt die Daten aber nicht vor
+Angreifern, die Zugriff auf einen der Endpunkte haben.
+Beispiel: vertrauliche E-Mails können durch den Administrator des Mailservers
+(oder einem Angreifer, der den Server gehackt hat) gelesen werden, außer
+die E-Mails sind mittels S/MIME oder PGP Ende-zu-Ende verschlüsselt.
+

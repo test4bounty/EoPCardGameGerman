@@ -1,0 +1,55 @@
+Anleitung 1
+Elevation of Privilege Anleitung
+
+Zeichnen Sie ein Diagramm des Systems 
+für welches Sie ein Bedrohungsmodell erstellen möchten,
+bevor Sie die Karten austeilen.
+
+Teilen Sie die Karten an 3 - 6 Spieler aus. 
+Das Spiel beginnt mit der Karte “Tampering 3”.
+
+Das Spiel geht im Uhrzeigersinn. 
+Wer an der Reihe ist, versucht die Karten-Suite (“Farbe”, z.B. Tampering) zu bedienen, 
+mit der die Runde eingeleitet wurde. Wer nicht bedienen kann, 
+spielt eine Karte einer anderen Suite bzw. Farbe. 
+Wer mit der höchstwertigen Karte bedienen kann, gewinnt die Runde,
+außer eine Elevation of Privilege (EoP) Karte wird gespielt.
+In diesem Fall gewinnt die höchstwertige EoP Karte.
+
+Um eine Karte zu spielen, lesen Sie die Bedrohung auf der Karte laut vor.
+Können Sie die Bedrohung auf der Karte nicht auf Ihr System anwenden,
+geht das Spiel weiter.
+
+Der Gewinner einer Runde wählt die Karte (und Suite) mit der die nächste Runde begonnen wird.
+Machen Sie ein paar Minuten Pause nach jeder Runde, um über die Bedrohungen nachzudenken.
+
+Punkte:
+1 Punkt für eine Bedrohung, die Sie auf das System anwenden konnten
+1 Punkt für den Gewinn der Runde
+
+Erläuterung:
+Elevation of Privilege Anleitung
+
+Artikulieren Sie Bedrohungen klar und nachvollziehbar. 
+Bedrohungen müssen testfähig/überprüfbar sein. Überlegen Sie, wie.
+Bedrohungen sollen innerhalb des Systems adressierbar/behebbar sein. 
+Führt eine Bedrohung zum Streit, können Sie ihn mit folgender Frage auflösen:
+“Würden wir einen Bugreport, ein Feature-Request oder eine Anpassung des Designs hierfür akzeptieren?”. Falls die Antwort “ja” ist, handelt es sich um eine relevante Bedrohung.
+(Dies bedeutet nicht, dass Bedrohungen außerhalb dieser Betrachtung nicht real sind.
+Es hilft lediglich dabei, sich auf adressierbare Bedrohungen zu konzentrieren). 
+Bedrohungen die einleiten mit “Ein Angreifer könnte…” werden wie folgt vorgetragen,
+um die Bedrohung auf das System anzuwenden:
+“Ein Angreifer könnte… und zwar wie folgt…”.
+Karten mit “Ihr Code…” werden wie folgt vorgetragen:
+“Unser Code…und zwar wie folgt”.
+
+Das Kartendeck enthält einige Spezialkarten: Trümpfe und offene Bedrohungen.
+EoP Karten sind Trümpfe. Sie gewinnen die Runde, auch wenn Sie einen niedrigeren Wert haben,
+als die Suite/Farbe mit der die Runde begonnen wurde.
+Asse sind offene Bedrohungen. Wer ein Ass spielt, muss eine Bedrohung finden, 
+die auf keiner anderen Karte steht und versuchen, Sie auf das System anzuwenden.
+
+Wenn alle Karten gespielt sind gewinnt der Spieler mit der höchsten Punktezahl.
+
+Haben Sie Spaß am Spiel!
+
