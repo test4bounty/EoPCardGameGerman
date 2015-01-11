@@ -2,7 +2,7 @@ Anleitung 1
 Elevation of Privilege Anleitung
 
 Zeichnen Sie ein Diagramm des Systems 
-für welches Sie ein Bedrohungsmodell erstellen möchten,
+für das Sie ein Bedrohungsmodell erstellen möchten,
 bevor Sie die Karten austeilen.
 
 Teilen Sie die Karten an 3 - 6 Spieler aus. 
