@@ -1,7 +1,7 @@
 Denial of Service Q
 
-Ein Angreifer kann eine verwundbare Systemkomponente missbrauchen,
-um eine (volumenbasierte) Denial of Service Attacke um den Faktor 10 zu verstärken.
+Ein Angreifer kann eine verwundbare Systemkomponente dazu missbrauchen,
+ eine (volumenbasierte) Denial of Service Attacke um den Faktor 10 zu verstärken.
 
 Erläuterung:
 Bei so genannten Amplification DoS Attacken nutzt der Angreifer den Umstand aus,

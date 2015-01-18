@@ -1,7 +1,7 @@
 Denial of Service K
 
-Ein Angreifer kann eine verwundbare Systemkomponente missbrauchen,
-um eine (volumenbasierte) Denial of Service Attacke um den Faktor 100 und mehr zu verstärken.
+Ein Angreifer kann eine verwundbare Systemkomponente dazu missbrauchen,
+ eine (volumenbasierte) Denial of Service Attacke um den Faktor 100 und mehr zu verstärken.
 
 Erläuterung:
 siehe Denial of Service Q

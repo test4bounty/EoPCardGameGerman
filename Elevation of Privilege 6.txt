@@ -1,7 +1,7 @@
 Elevation of Privilege 6
 
-Ein Angreifer kann Berechtigungen, die Ihr Programm verlangt aber nicht
-wirklich braucht, für sich ausnutzen.
+Ein Angreifer kann Berechtigungen für sich ausnutzen, die Ihr Programm verlangt aber nicht
+wirklich braucht.
 
 Anwendungen für .NET, Android, iOS und andere Plattformen können bei Installation
 oder Start bestimmte Berechtigungen erfragen. Wenn Ihre Anwendung mehr Berechtigungen

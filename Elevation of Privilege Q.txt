@@ -1,6 +1,6 @@
 Elevation of Privilege Q
 
-Sie inkludieren benutzergenerierten Inhalt (User-Generated Content, UGC)
+Sie inkludieren User-Generated Content (UGC)
 in Ihrer Webseite, der auch Inhalte von beliebigen URLs etc. enthalten kann.
 
 Erläuterung:
