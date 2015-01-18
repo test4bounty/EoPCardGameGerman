@@ -1,6 +1,6 @@
 Repudiation J
 
-Ein Angreifer kann unbemerkt Logs editieren oder löschen.
+Ein Angreifer kann unbemerkt Logs editieren, löschen oder deren Übermittlung unterbinden.
 
 Erläuterung:
 Verhindern Sie dies, indem Sie einen Mechanismus nutzen, der die Funktion
