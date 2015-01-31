@@ -1,0 +1,14 @@
+Spoofing 2
+
+Ein Angreifer “sitzt” (lauscht) auf dem zufälligen Port oder Socket, den der Server üblicherweise nutzt.
+
+Erläuterung:
+Manche Services nutzen hohe, unprivilegierte Ports oder portmapping Mechanismen.
+Beispielsweise lauschen Oracle TNS Listener standardmäßig auf den Ports 1521 - 1526.
+Ein Client kann sich nicht darauf verlassen, dass unter diesen Ports tatsächlich der 
+erwartete Server lauscht und ein Angreifer kann mit relativ niedrigen Privilegien
+einen solchen Port auf dem Serversystem besetzen und darauf lauschen,
+bevor der Server dies tut. 
+Eine mögliche Sicherheitsmaßnahme ist, dass der Server sich gegenüber dem Client
+authentisiert, so dass dieser verifizieren kann, ob er mit dem richtigen Server spricht.
+

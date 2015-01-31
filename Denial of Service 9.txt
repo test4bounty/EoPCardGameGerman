@@ -1,7 +1,0 @@
-Denial of Service 9
-
-Ein Angreifer kann einen Client unverfügbar oder unbrauchbar machen,
-ohne dass je eine Authentisierung statt gefunden hat,
-und das Problem besteht fort, nachdem der Angriff aufgehört hat.
-(Client, anonym, persistent)
-

@@ -1,7 +1,0 @@
-Information Disclosure K
-
-Ein Angreifer kann Netzwerkinformationen lesen, weil keine Kryptografie genutzt wird.
-
-Erläuterung:
-Nutzen Sie Kryptografie, um Netzwerkverbindungen zu verschlüsseln.
-

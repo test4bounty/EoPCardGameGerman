@@ -1,0 +1,7 @@
+Denial of Service 10
+
+Ein Angreifer kann einen Server unverfügbar oder unbrauchbar machen,
+ohne dass je eine Authentisierung statt gefunden hat,
+und das Problem besteht fort, nachdem der Angriff aufgehört hat.
+(Server, anonym, persistent)
+

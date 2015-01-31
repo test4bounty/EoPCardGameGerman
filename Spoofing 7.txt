@@ -1,7 +1,0 @@
-Spoofing 7
-
-Ein Angreifer kann sich zu einem Server oder Peer über einen nicht authentisierten, unverschlüsselten Kanal verbinden. 
-
-Erläuterung:
-Dies kann darin resultieren, dass der Server, Peer oder Client gespoofed werden kann.
-

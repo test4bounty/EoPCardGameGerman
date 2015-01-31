@@ -1,0 +1,10 @@
+Information Disclosure 2
+
+Ein Angreifer kann verschlüsselte Dateien mittels Brute-Force entschlüsseln,
+weil keine geeigneten Sicherheitsmaßnahmen dagegen vorhanden sind.
+
+Erläuterung:
+Mittels Password- oder Key-Stretching können Sie möglicherweise schwache
+Passwörter oder Schlüssel sicherer gegen Brute-Force Angriffe machen.
+Mehr Info: http://en.wikipedia.org/wiki/Key_stretching
+

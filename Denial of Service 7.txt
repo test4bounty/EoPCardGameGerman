@@ -1,6 +1,0 @@
-Denial of Service 7
-
-Ein Angreifer kann einen Client unverfügbar oder unbrauchbar machen
-und das Problem besteht fort, nachdem der Angriff aufgehört hat.
-(Client, authentisiert, persistent)
-

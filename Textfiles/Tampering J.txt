@@ -1,0 +1,8 @@
+Tampering J
+
+Ein Angreifer kann auf eine Ressource schreiben, weil es keine ACLs gibt oder
+weil jeder berechtigt ist (world writable).
+
+Erläuterung:
+Ähnlich wie “Tampering 10”, nur etwas allgemeiner gehalten.
+

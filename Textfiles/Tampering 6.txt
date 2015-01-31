@@ -1,0 +1,10 @@
+Tampering 6
+
+Ein Angreifer kann Daten in Speicherorten schreiben, in denen Ihr Code liegt oder die durch Ihren Code interpretiert werden.
+
+Erläuterung:
+Wenn dort niemand Daten schreiben soll, schützen Sie diese Speicherorte und Daten, beispielsweise mittels
+Access Control Lists (ACLs). Überlegen Sie sehr genau, auf welche Bereiche ein Angreifer schreibend Einfluss hat,
+die Sie in Ihrem Code verarbeiten oder gar interpretieren. Es gibt Bereiche, auf die ein Angreifer zwangsläufig Einfluss haben wird, beispielsweise auf den Inhalt des Access Log eines Webservers oder auf
+/proc/procid/cmdline falls Sie ein Programm laufen lassen, welches als Parameter Benutzereingaben erhält.
+

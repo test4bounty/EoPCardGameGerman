@@ -1,8 +1,0 @@
-Information Disclosure 10
-
-Ein Angreifer kann sensible Informationen in eine Datei lesen, die überhaupt keine Zugriffsbeschränkungen hat.
-
-Erläuterung:
-Extremfall von 9. Schränken Sie den Zugriff auf die Datei ein, indem Sie
-entsprechende Dateiberechtigungen bzw. ACLs setzen.
-

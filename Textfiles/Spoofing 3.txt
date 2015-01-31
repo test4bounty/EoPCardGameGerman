@@ -1,0 +1,18 @@
+Spoofing 3
+
+Ein Angreifer könnte alle möglichen Credentials (Passwörter, Cookies, Session-IDs etc.) der Reihe nach durchprobieren und es gibt keinen Mechanismus, der ihn dabei ausbremst (online oder offline).
+
+Erläuterung:
+Typischerweise geht es hier um brute-force Attacken. 
+“Online” bedeutet hier, dass der Angriff in Interaktion mit Ihrem Code stattfindet,
+Sie also prinzipiell die Möglichkeit hätten, einzugreifen.
+Ein bekanntes Tool für Online brute-force Angriffe ist THC Hydra.
+Mögliche Gegenmaßnahmen sind u.a.
+- Wartezeit nach jedem Fehlversuch erhöhen
+- Account nach n Fehlversuchen sperren.
+Für Serverdienste gibt es Tools wie Fail2ban, die so etwas realisieren können.
+“Offline” hingegen bedeutet, dass der Angreifer über eine Kopie der Daten 
+- z.B. der Passwort Hashes - hat, auf denen Ihr Authentisierungs-Code angewiesen ist. 
+Ein bekanntes Tool für offline brute-force Attacken ist “john the ripper”.
+Mögliche Gegenmaßnahmen: “gesalzene” und “gepfefferte” Hashes, starke Hashverfahren
+

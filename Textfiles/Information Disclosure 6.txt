@@ -1,0 +1,16 @@
+Information Disclosure 6
+
+Ein Angreifer kann Daten lesen, die lediglich versteckt oder verschleiert sind,
+(z.B. für eine Undo-Funktion) so dass dem Nutzer gar nicht bewusst ist oder er vergessen hat, dass diese Daten (noch) existieren.
+
+Erläuterung: 
+Undo-Funktionen, Versionierung und automatisch gespeicherte Sicherungsdateien sind
+sehr praktisch. Oft ist es aber für den Anwender nicht mehr durchschaubar,
+ob gelöschte Daten tatsächlich gelöscht sind oder wo überall noch Kopien davon
+gespeichert sind. Ein Beispiel: Textdokumente enthalten häufig noch alte Versionen
+des Textes, die der Anwender aus gutem Grund geändert hat.
+Falls diese alten Versionen vor Weitergabe nicht entfernt werden, kann dies
+sehr peinlich werden. Ein zweites Beispiel: in Outlook gelöschte E-Mails liegen 
+häufig selbst nach leeren des Ordners “gelöschte Elemente” noch lange auf dem 
+Exchange Server, bevor sie auch dort endgültig gelöscht oder überschrieben werden.
+

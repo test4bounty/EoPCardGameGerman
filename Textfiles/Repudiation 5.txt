@@ -1,0 +1,11 @@
+Repudiation 5
+
+Ein Angreifer kann Lognachrichten verändern, die übers Netz übertragen werden,
+weil kein starker Mechanismus zur Gewährleistung der Integrität implementiert ist.
+
+Erläuterung:
+Logdaten, die über das Netz übertragen werden (z.B. per Syslog), können von
+Angreifern mitgelesen und manipuliert werden, die Zugriff auf das gleiche Netz
+haben. Mithilfe von Message Authentication Codes (MACs) kann die Integrität der 
+übertragenen Daten gewährleistet werden, sofern die Endpunkte (Sender und Empfänger) vertrauenswürdig bzw. nicht kompromittiert sind (anders als bei Repudiation 4).
+

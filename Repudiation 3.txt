@@ -1,8 +1,0 @@
-Repudiation 3
-
-Ein unprivilegierter Nutzer/Angreifer hat lesend Zugang zu interessanten Sicherheitsinformationen in den Logs.
-
-Erläuterung:
-Stellen Sie sicher, dass sicherheitsrelevante Logdaten geschützt sind.
-
-

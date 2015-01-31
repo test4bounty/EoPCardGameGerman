@@ -1,0 +1,8 @@
+Information Disclosure Q
+
+Ein Angreifer kann einen Kommunikationskanal vollständig mitlesen, weil dieser
+im Klartext vorliegt, also unverschlüsselt ist (z.B. HTTP oder SMTP).
+
+Erläuterung:
+Encrypt all the things! Mehr und mehr Kommunikation findet über nicht vertrauenswürdige Netze statt, so dass Verschlüsselung immer wichtiger wird.
+

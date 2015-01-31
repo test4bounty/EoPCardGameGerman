@@ -1,6 +1,0 @@
-Denial of Service 3
-
-Ein Angreifer kann einen Client unverfügbar oder unbrauchbar machen,
-aber das Problem verschwindet, sobald der Angriff aufhört.
-(Client, authentisiert, temporär)
-

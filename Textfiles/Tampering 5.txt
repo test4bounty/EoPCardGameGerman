@@ -1,0 +1,15 @@
+Tampering 5
+ 
+Ein Angreifer kann unbemerkt bereits übermittelte Daten erneut übertragen (Replay Attacke),
+weil Ihr Code keine Zeitstempel, Sequenznummern oder ähnliches nutzt, um dies zu verhindern oder zu erkennen.
+ 
+Erläuterung:
+(Anmerkung: diese Bedrohung könnte genauso gut oder sogar passender unter Spoofing aufgeführt werden)
+Mit Hilfe von Sequenz- oder Transaktionsnummern können Sie auf Empfängerseite sicherstellen, dass übermittelte Daten nach vollständigem Empfang nicht unbemerkt erneut übermittelt werden können.
+Auf Transportebene nutzt das Transmission Control Protocol (TCP) beispielsweise Sequenznummern um nachzuhalten, welche Daten bereits übermittelt wurden. Um Spoofing und Hijacking Angriffe auf TCP zu erschweren, werden die initialen Sequenznummern möglichst unvorhersehbar, also zufällig gewählt.
+Auch auf Applikationsebene können Sequenz- und Transaktionsnummern Replay Attacken erschweren oder verhindern. Zeitstempel sind problematischer, weil diese voraussetzen, dass die Uhren beteiligter Kommunikationspartner synchron laufen. Zudem bieten Zeitstempel eine potentiell größere Angriffsfläche, als
+Sequenznummern. Wird NTP zur Synchronisation der Uhrzeit genutzt, kann ein Angreifer die Zeit mittels
+NTP Spoofing manipulieren (NTP wird i. d. R. ohne kryptografische Absicherung über UTP genutzt, was Spoofing
+sehr leicht macht.
+
+

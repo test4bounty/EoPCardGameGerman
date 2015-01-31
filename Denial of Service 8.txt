@@ -1,7 +1,0 @@
-Denial of Service 8
-
-Ein Angreifer kann einen Server unverfügbar oder unbrauchbar machen,
-
-und das Problem besteht fort, nachdem der Angriff aufgehört hat.
-(Server, authentisiert, persistent)
-

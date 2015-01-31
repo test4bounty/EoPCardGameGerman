@@ -1,9 +1,0 @@
-Spoofing 5
-
-Ein Angreifer kann einen Client verwirren, weil es zu viele Wege gibt, einen Server zu identifizieren.
-
-Erläuterung:
-Diese Aussage kann sich sowohl auf den Computer-Client als auch auf den Anwender beziehen.
-Falls Ihre Systeme mehrere Namen haben, beispielsweise einen WINS, DNS, MDNS und einen
-Marken-Namen, wie stellen Sie sicher, dass der Client/Anwender immer das gleiche sieht?
-

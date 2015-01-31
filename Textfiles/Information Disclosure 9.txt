@@ -1,0 +1,9 @@
+Information Disclosure 9
+
+Ein Angreifer kann sensible Informationen in einer Datei lesen,
+weil deren Zugriffsrechte falsch gesetzt sind (schwache ACL).
+
+Erläuterung:
+Setzen Sie Zugriffsrechte nach dem Prinzip “least privilege”, also so restriktiv
+wie möglich und nur so viel Rechte, wie unbedingt nötig.
+

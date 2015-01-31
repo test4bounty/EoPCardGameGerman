@@ -1,0 +1,13 @@
+Elevation of Privilege 6
+
+Ein Angreifer kann Berechtigungen für sich ausnutzen, die Ihr Programm verlangt aber nicht
+wirklich braucht.
+
+Anwendungen für .NET, Android, iOS und andere Plattformen können bei Installation
+oder Start bestimmte Berechtigungen erfragen. Wenn Ihre Anwendung mehr Berechtigungen
+verlangt, als sie wirklich nutzt, schwächt das die Wirksamkeit des zugrunde liegenden
+Security Frameworks. Gepaart mit einer weiteren Schwachstelle kann ein
+Angreifer eventuell auf Daten oder Schnittstellen zugreifen, auf die er trotz
+der Schwachstelle gar nicht hätte zugreifen können, wenn Ihre Anwendung nur die
+absolut benötigten Berechtigungen eingefordert hätte.
+

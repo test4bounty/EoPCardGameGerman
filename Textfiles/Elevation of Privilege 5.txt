@@ -1,0 +1,12 @@
+Elevation of Privilege 5
+
+Ein Angreifer kann Einfluss darauf nehmen, welche Art Validierung Daten
+durchlaufen, die jeweils unterschiedliche Ergebnisse liefern.
+
+Erläuterung:
+Falls Sie unterschiedliche Funktionen/Module/Stellen im Code haben,
+die für die gleiche Art Validierung zuständig sind, sind sicherheitsrelevante Fehler und Uneindeutigkeiten vorprogrammiert. Zeit für ein Refactoring. 
+
+Beispiel: Apple’s gotofail bug
+http://nakedsecurity.sophos.com/2014/02/24/anatomy-of-a-goto-fail-apples-ssl-bug-explained-plus-an-unofficial-patch/
+

@@ -1,0 +1,10 @@
+Information Disclosure 7
+
+Ein Angreifer kann als “Man in the Middle” agieren und verschlüsselte Daten lesen, weil Sie die Endpunkte einer Netzwerkverbindung nicht authentisieren.
+
+Erläuterung:
+Um Vertraulichkeit zu gewährleisten benötigen Sie generell auch Authentierung,
+da Sie sonst nie sicher sein können, für wen Sie eigentlich verschlüsseln oder wer
+die Daten verschlüsselt hat. Idealerweise authentisieren sich beide Endpunkte
+gegenseitig mithilfe starker kryptografischer Verfahren (z.B. mittels X.509 Zertifikaten).
+

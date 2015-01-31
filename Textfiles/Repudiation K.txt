@@ -1,0 +1,9 @@
+Repudiation K
+
+Das System hat keine Logs.
+
+Erläuterung:
+Logs sind sehr hilfreich, nicht nur um die Funktion des Systems im laufenden Betrieb zu überwachen und um Fehlerursachen auf die Spur zu kommen, sondern auch, um Angriffe zu detektieren oder nachträglich nachvollziehen zu können (Log-Forensik). 
+Auch wenn Sie selbstverständlich wissen, dass Logs benötigt werden,
+haben Sie ja vielleicht ein System, Subsystem oder eine wichtige Funktion übersehen, für die Sie bisher kein Logging implementiert haben.
+

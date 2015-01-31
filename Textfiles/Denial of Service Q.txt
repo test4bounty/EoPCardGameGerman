@@ -1,0 +1,21 @@
+Denial of Service Q
+
+Ein Angreifer kann eine verwundbare Systemkomponente dazu missbrauchen,
+ eine (volumenbasierte) Denial of Service Attacke um den Faktor 10 zu verstärken.
+
+Erläuterung:
+Bei so genannten Amplification DoS Attacken nutzt der Angreifer den Umstand aus,
+dass er mit geringem Aufwand an Ressourcen eine vielfach höhere Ressourcen-Nutzung
+auf Seiten der Verteidiger verursacht. Häufig werden solche Attacken mit Spoofing
+kombiniert, wobei der Angreifer seine Quelladresse fälscht und eine Überflutung
+einer dritten Partei mit nie angefragten Informationen bewirkt. 
+Beispiele:
+
+- DNS Amplification Attacke: Angreifer fragt nach Public Key des DNS Servers unter Nutzung einer gespoofter Quelladresse. Der wahre Inhaber der gespooften Adresse wird mit Antwortpaketen geflutet, die vielfach größer sind als die Anfragepakete des Angreifers.
+
+- NTP Amplification Attacke: Angreifer schickt NTP monlist Kommandos an Zeitserver
+unter Nutzung einer gespooften Quelladresse. Der wahre Inhaber der gespooften Adresse
+wird mit Antwortpaketen geflutet, die vielfach größer sind als die Anfragepakete des Angreifers.
+
+
+

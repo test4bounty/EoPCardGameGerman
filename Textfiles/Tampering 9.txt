@@ -1,0 +1,9 @@
+Tampering 9
+
+Ein Angreifer kann Statusinformationen beeinflussen.
+
+Erläuterung:
+Falls Ihr System Statusinformationen wie “user ist eingelogged” von außen akzeptiert, sollten Sie dringend Ihr Design korrigieren. In der Praxis sind solche Fehler beispielsweise bei Webanwendungen häufiger auftetreten.
+Findet ein Angreifer einen GET oder POST Parameter wie mode=user, wird er sicher auch mal probieren,
+was passiert, wenn er mode=admin an den Server schickt.
+

@@ -1,0 +1,10 @@
+Repudiation Q
+
+Ein Angreifer kann abstreiten, etwas getan zu haben und es gibt keine 
+brauchbaren Daten, um das Gegenteil zu beweisen.
+
+Erläuterung:
+Ihr Logging muss all jene Daten erfassen, die Ihre Organisation benötigt,
+um bestimmte Vorgänge und Transaktionen gegenüber Kunden und Dritten nachweisen
+zu können.
+

@@ -1,0 +1,18 @@
+Elevation of Privilege Q
+
+Sie inkludieren User-Generated Content (UGC)
+in Ihrer Webseite, der auch Inhalte von beliebigen URLs etc. enthalten kann.
+
+Erläuterung:
+Dies kann auf vielen Ebenen problematisch sein. 
+Einerseits kann Einbinden externer Inhalte Urherber- und Verwertungsrechte verletzen.
+Andererseits kann das Einbinden auch zu ganz anderen Sicherheitsproblemen führen,
+beispielsweise stored XSS, oder wenn der externe Inhalt nicht lediglich eingebettet sondern auch serverseitig interpretiert wird (Beispiel: Remote File Inclusion in PHP-Anwendungen führt zu Kommandoausführung auf dem Zielsystem). 
+Letzeres ist im Grunde wieder ein Call-by-Reference Problem.
+Unterbinden Sie dies, indem Sie alle Eingaben validieren, egal voher sie kommen, 
+Ausgaben entwerten/codieren (z.B. HTML-entities) und indem Sie beispielsweise die verwendete Plattform (Server, PHP-Interpreter) per Konfiguration absichern
+(PHP allow_url_fopen = off, allow_url_fopen = off)
+Obwohl oben als Beispiel Webseiteninhalte genannt werden, können Sie diese
+Bedrohung möglicherweise auch auf andere Anwendungen übertragen.
+
+

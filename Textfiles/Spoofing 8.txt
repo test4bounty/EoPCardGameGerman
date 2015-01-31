@@ -1,0 +1,15 @@
+Spoofing 8
+
+Ein Angreifer könnte die auf einem Server gespeicherten Credentials stehlen und wieder
+verwenden (beispielsweise falls ein Schlüssel in einer für andere lesbaren Datei gespeichert wird).
+
+Erläuterung:
+Sobald Schlüsselmaterial auch nur duch einige wenige Personen lesbar ist,
+besteht die Gefahr einer (absichtlichen oder ungewollten) Weitergabe oder des Diebstahls.
+Speichern Sie wichtiges Schlüsselmaterial deswegen nach Möglichkeit nicht im Dateisystem, sondern
+verwenden Sie spezielle Hardware wie SmartCards oder ein Hardware Security Module (HSM).
+Sensibles Schlüsselmaterial wie private Keys Ihrer internen CA sollte physisch und netzwerktechnisch besonders geschützt und von den übrigen Systemen und Anwendungen 
+strikt getrennt sein. Nutzen Sie für die Handhabung von sensiblem Schlüsselmaterial Systeme,
+die ausschließlich für diesen Zweck vorgesehen sind, mit dem Sie also nicht außerdem im
+WWW surfen oder E-Mails lesen.
+

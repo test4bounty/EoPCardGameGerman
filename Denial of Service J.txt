@@ -1,8 +1,0 @@
-Denial of Service J
-
-Ein Angreifer kann das Logging-Subsystem außer Betrieb setzen.
-
-Erläuterung:
-Wenn es einem Angreifer gelingt das Logging-System außer Betrieb zu setzen,
-sind seine Angriffe und deren Folgen schwerer nachzuvollziehen und zu beheben.
-

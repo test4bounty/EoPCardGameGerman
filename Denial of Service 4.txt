@@ -1,6 +1,0 @@
-Denial of Service 4
-
-Ein Angreifer kann einen Server unverfügbar oder unbrauchbar machen,
-aber das Problem verschwindet, sobald der Angriff aufhört.
-(Server, authentisiert, temporär)
-

@@ -1,7 +1,0 @@
-Denial of Service 5
-
-Ein Angreifer kann einen Client unverfügbar oder unbrauchbar machen,
-ohne dass je eine Authentisierung statt gefunden hat, 
-aber das Problem verschwindet, sobald der Angriff aufhört.
-(Client, anonym, temporär)
-

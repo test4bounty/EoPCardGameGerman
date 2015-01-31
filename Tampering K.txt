@@ -1,9 +1,0 @@
-Tampering K
-
-Ein Angreifer Code mithilfe eines Extension Points einbinden.
-
-Erläuterung:
-Keiner will das Rad neu erfinden und anderen Code einzubinden kann sehr praktisch sein. Allerdings ergeben sich hierdurch auch Risiken, denn die Methode 
-der Einbindung kann Schwachstellen haben und der eingebundene Code kann Schwachstellen oder andere Probleme mit sich bringen.
-
-

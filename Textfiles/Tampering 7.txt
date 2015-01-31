@@ -1,0 +1,12 @@
+Tampering 7
+
+Ein Angreifer kann Berechtigungen umgehen, weil Sie Namen nicht kanonisieren (normalisieren), bevor Zugriffsrechte geprüft werden.
+
+Erläuterung: 
+Ein Webserver mag eine Sicherheitsregel haben, dass nur Dateien unterhalb eines bestimmten Verzeichnisses ausgeführt werden dürfen. Damit ein Angreifer nicht mittels relativer Pfadangaben diese Regel aushebeln kann 
+(indem er beispielsweise mit ../ hinter die Pfadangabe aus dem erlaubten Verzeichnis auf ein anderes verweist),
+muss der Code, der die Sicherheitsregel implementiert, zuerst den Pfad normalisieren, also in den resultierenden
+absoluten Pfad umwandeln. Ein anderes Beispiel können links auf Verzeichnisse oder Dateien sein.
+Ihr Code muss sicherstellen, dass die Zugriffskontrolle auf den resultierenden absoluten Pfad angewendet wird, 
+auf den der Link verweist. Überlegen Sie, ob es eventuell noch andere Beispiele gibt, die auf Ihren Code zutreffen könnten.
+
