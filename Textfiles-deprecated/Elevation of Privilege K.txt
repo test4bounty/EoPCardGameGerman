@@ -4,6 +4,7 @@ Ein Angreifer kann ein Kommando einschleusen/injizieren das vom System
 mit einer höheren Berechtigung ausgeführt wird. 
 
 Erläuterung:
+Dies können SQL-Injection Angriffe sein oder eine Remote Code Execution.
 Command Injection Attacken bedingen in der Regel das Einschleusen von
 Steuerzeichen, die die Anwendung dazu veranlassen die folgenden Eingaben
 als Kommandos zu interpretieren, anstatt als im vorgesehenen Kontext zu verarbeitende

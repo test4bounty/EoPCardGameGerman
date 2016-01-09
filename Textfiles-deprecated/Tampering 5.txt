@@ -1,7 +1,6 @@
 Tampering 5
  
-Ein Angreifer kann unbemerkt bereits übermittelte Daten erneut übertragen (Replay Attacke),
-weil Ihr Code keine Zeitstempel, Sequenznummern oder ähnliches nutzt, um dies zu verhindern oder zu erkennen.
+Ein Angreifer kann unbemerkt bereits übermittelte Daten erneut übertragen (Replay Attacke), weil Ihr Code keine Zeitstempel, Sequenznummern oder ähnliches nutzt, um dies zu verhindern oder zu erkennen.
  
 Erläuterung:
 (Anmerkung: diese Bedrohung könnte genauso gut oder sogar passender unter Spoofing aufgeführt werden)

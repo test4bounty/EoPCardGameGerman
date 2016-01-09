@@ -1,0 +1,12 @@
+Spoofing 5
+
+Ein Angreifer kann einen Client verwirren, weil es zu viele Wege gibt, einen Server zu identifizieren.
+
+Erläuterung:
+Diese Aussage kann sich sowohl auf den Computer-Client als auch auf den Anwender beziehen.
+Ein bekanntes Sicherheitsprolem ist beispielsweise, wenn zur Namensauflösung NetBios, WINS, DNS und MDNS zur Verfügung stehen. Ein Angreifer im lokalen Netz kann NetBios Anfragen für alle Hostnamen mit seiner IP beantworten und dorthin adressierten Datenverkehr über sich selbst (Man in the Middle) leiten. 
+Bezogen auf den Anwender kann es für diesen auch unklar sein, wie er einen Server 
+identifzieren soll, wenn es dafür zu viele verschiedene Möglichkeiten gibt oder 
+uneindeutig ist, welcher Server bzw. Name der richtige ist.
+
+
